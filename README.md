@@ -101,7 +101,7 @@ The two cloned nodes were set up to be fully isolated, and are only able to comm
 
 ## 📸 Validation and Proof of Concept
 
-The following visual evidence confirms the successful implementation of network segmentation, internal communication, and secure remote management.
+The following visual evidence confirms the successful Internal Connectivity, and Secure Access Validation.
 
 ### 1. Proof of Internal Connectivity
 
@@ -109,7 +109,7 @@ This validation confirms the primary functionality: that all nodes can communica
 
 * **Node-to-Node and Master Connectivity:** A ping test executed from **Cloned Node 2** successfully reached both **Cloned Node 1** and the **Master Node**. This confirms the internal `cluster-net` LAN is fully operational and allows all devices to communicate.
 
-    ![Node 2 Successful Ping to Node 1 and Master](https://github.com/saracena26/Linux-Node-Cluster-and-Virtual-Networking/blob/main/screenshots/node2-internal-ping-success.png)
+    ![Node 2 Successful Ping to Node 1 and Master](screenshots/node2-internal-ping-success.png)
 
 ### 2. Secure Access Validation
 
@@ -117,7 +117,7 @@ This validation confirms that the networking setup enables secure command and co
 
 * **Master Node SSH to Cloned Node 1:** The **Master Node** successfully established an **SSH session** with **Cloned Node 1**. This validates the setup of passwordless SSH and confirms that the networking layer supports secure remote management.
 
-    ![Master Node SSH Successful Connection to Node 1](https://github.com/saracena26/Linux-Node-Cluster-and-Virtual-Networking/blob/main/screenshots/ssh-master-to-node1.png)
+    ![Master Node SSH Successful Connection to Node 1](screenshots/ssh-master-to-node1.png)
 
 ### 3. Proof of Network Segmentation (Isolation Check)
 
